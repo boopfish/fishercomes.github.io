@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SpringBoot异步任务@Async的使用
+title: SpringBoot集成Websocket
 categories: SpringBoot
 tags: [Websocket, 即时通讯]
 ---
