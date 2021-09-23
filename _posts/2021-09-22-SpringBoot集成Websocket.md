@@ -27,7 +27,7 @@ tags: [Websocket, 即时通讯]
 
 2. 消息处理类
 
-   ```
+   ```java
    @Component
    @Slf4j
    @ServerEndpoint("/ws/{controlPanelId}") //此注解相当于设置访问URL
@@ -118,7 +118,7 @@ tags: [Websocket, 即时通讯]
 
 1. 添加消息处理类
 
-   ```
+   ```java
    @Component
    @Slf4j
    public class CpWebSocketHandler extends TextWebSocketHandler {
@@ -251,7 +251,7 @@ tags: [Websocket, 即时通讯]
 
 2. 配置拦截器
 
-   ```
+   ```java
    @Slf4j
    @Component
    public class CpWebSocketInterceptor extends HttpSessionHandshakeInterceptor {
@@ -279,7 +279,7 @@ tags: [Websocket, 即时通讯]
 
 3. 添加配置类
 
-   ```
+   ```java
    @Configuration
    @EnableWebSocket
    public class CpWebSocketConfig implements WebSocketConfigurer {

@@ -119,11 +119,11 @@ public class OrderCreateTask implements Callable<String> {
 
 1. 自定义线程池，可指定执行器
 
-```
+```java
   @Async(Contants.TaskThreadPool.ASYNPOOL_NAME)
 ```
 
-```
+```java
 @Configuration
 public class AsyncConfiguration implements AsyncConfigurer {
 
@@ -158,7 +158,7 @@ public class AsyncConfiguration implements AsyncConfigurer {
 
 3. 在需要异步执行的方法上添加@Async 注解, 这里有返回值, 通过AsyncResult 返回Future.
 
-```
+```java
 @Component
 public class OrderSubmitTask {
 
@@ -179,7 +179,7 @@ public class OrderSubmitTask {
 
 
 
-```
+```java
 @Service
 public class OrderService {
 
@@ -231,7 +231,7 @@ EventBus顾名思义，事件总线，是一个轻量级的发布/订阅模式�
 
 ## AsyncEventBus
 
-```
+```java
 @Service
 public class AsyncEventBusHelper {
     private AsyncEventBus asyncEventBus;
@@ -254,7 +254,7 @@ public class AsyncEventBusHelper {
 }
 ```
 
-```
+```java
 public abstract class AsyncEventListener<T> {
 
     @Resource
