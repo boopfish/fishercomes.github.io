@@ -189,3 +189,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+# Google Analytics Tracking ID goes here:
+google_analytics: UA-211986579-1
