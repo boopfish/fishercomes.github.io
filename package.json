@@ -1,24 +1,14 @@
 {
-  "name": "fishercomes.github.io",
+  "name": "",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "reco_luan",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fishercomes/fishercomes.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fishercomes/fishercomes.github.io/issues"
-  },
-  "homepage": "https://github.com/fishercomes/fishercomes.github.io#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7",
-    "vuepress-theme-reco": "^1.6.10"
-  }
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "description": ""
 }
