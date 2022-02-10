@@ -2,7 +2,6 @@ module.exports = {
     "title": "",
     "description": "",
     "dest": "public",
-    "base":"/",
     "locales": {
         '/': {
             lang: 'zh-CN'
@@ -28,7 +27,7 @@ module.exports = {
     "themeConfig": {
         "nav": [
             {
-                "text": "Home",
+                "text": "首页",
                 "link": "/",
                 "icon": "reco-home"
             },

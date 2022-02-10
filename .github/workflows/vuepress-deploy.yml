@@ -1,0 +1,17 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@gh-pages
+
+      - name: fishercomes.github.io
+        uses: fishercomes/fishercomes.github.io
+        env:
+          ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
+          TARGET_REPO: fishercomes/fishercomes.github.io
+          TARGET_BRANCH: gh-pages
+          BUILD_SCRIPT: npm && npm build
+          BUILD_DIR: .vuepress/dist
