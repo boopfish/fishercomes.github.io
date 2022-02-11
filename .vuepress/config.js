@@ -27,12 +27,12 @@ module.exports = {
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "时间线",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "文档",
         "icon": "reco-message",
         "items": [
           {
@@ -47,7 +47,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/fishercomes",
             "icon": "reco-github"
           }
         ]
@@ -65,23 +65,23 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "目录"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
       {
-        "title": "午后南杂",
+        "title": "荞麦假面",
         "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
+        "email": "84316534@qq.com",
         "link": "https://www.recoluan.com"
       },
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+        "title": "博客果实",
+        "desc": "Hello World!",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
