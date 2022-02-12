@@ -1,11 +1,11 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Fisher's Blog
+tagline: Just Do It.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
-#   width: '100%',
+#   width: '100%',vuepress-theme-reco
 #   display: block,
 #   margin: '9rem auto 2rem',
 #   background: '#fff',
