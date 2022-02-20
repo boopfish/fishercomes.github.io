@@ -1,27 +1,31 @@
 ---
 home: true
-heroText: Fisher's Blog
-tagline: Just Do It.
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',vuepress-theme-reco
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImageStyle: {
-  height: '450px'
-}
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
+modules:
+  - BannerBrand
+  - MdContent
+  - Footer
+bannerBrand:
+  heroImage: /logo.png
+  heroImageStyle:
+    maxWidth: '200px'
+    width: '100%'
+    display: block
+    margin: '0 auto 2rem'
+    borderRadius: '1rem'
+  bgImage: '/bg.svg'
+  heroText: Fisher's Zone
+  tagline:
+  buttons:
+    - { text: Guide, link: '/categories/reco/1/' }
+    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
+isShowTitleInHome: true
+actionText: About
+actionLink: /views/other/about
 features:
-- title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-- title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
-- title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
+- title: 过去
+  details: 开发一款看着开心、写着顺手的 vuepress 博客主题。
+- title: 当下
+  details: 帮助更多的朋友节省时间去用心书写内容，而不是仅仅配置一个博客去孤芳自赏。
+- title: 未来
+  details: 吸引更多的朋友参与到开发中来，继续强大功能。
 ---
